@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card-section{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+   
+    
+    height: 355px;
+    width: 250px;
+    border:1px solid black;
+   
+}
+.cardHeader{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(25, 25, 71);
+    width: 100%;
+    height: 130px;
+    justify-content: space-between;
+     
+}
+.image-section{
+    margin-top: 10px;
+    
+    
+}
+.profileImage{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.employee-info{
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.employeeName img{
+    width: 100%;
+   
+}
+.info-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -80px;
+    
+}
+.employee-name{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.employee-designation{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.body-section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+     
+}
+.item{
+    display: flex;
+  
+   flex-direction: row;
+  
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 0;
+
+}
+ 
+.title{
+    width: 25%;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+.information{
+    width: 45%;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.space span:after{
+    content: " ";
+    white-space: pre;
+}
+.barcode-section{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.barcode-section img{
+    height: 20px;
+}
+/* Back page style */
+.backHeader{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+     
+}
+.logo-section{
+    margin-top: 10px;
+    color: white;
+}
