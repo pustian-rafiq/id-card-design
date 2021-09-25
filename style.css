@@ -9,7 +9,7 @@ body{
     flex-direction: column;
    
     
-    height: 355px;
+    height: 340px;
     width: 250px;
     border:1px solid black;
    
@@ -22,7 +22,8 @@ body{
     width: 100%;
     height: 130px;
     justify-content: space-between;
-     
+    --webkit-print-color-adjust: exact;
+    /* background-image: url("images/backgound.svg");  */
 }
 .image-section{
     margin-top: 10px;
@@ -61,8 +62,9 @@ body{
     margin-top: 5px;
 }
 .employee-designation{
-    font-size: 10px;
+    font-size: 11px;
     font-family: 'Times New Roman', Times, serif;
+     
 }
 .body-section{
     margin-top: 50px;
@@ -72,26 +74,24 @@ body{
      
 }
 .item{
-    display: flex;
-  
+  display: flex;
    flex-direction: row;
-  
   width: 100%;
-  margin-left: 20px;
-  margin-top: 0;
+  margin-left: 25px;
+  margin-top: -7px;
 
 }
  
 .title{
     width: 25%;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
 }
  
 .information{
     width: 45%;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -108,6 +108,8 @@ body{
 .barcode-section img{
     height: 20px;
 }
+
+
 /* Back page style */
 .backHeader{
     display: flex;
@@ -121,4 +123,83 @@ body{
 .logo-section{
     margin-top: 10px;
     color: white;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    flex: 1;
+    
+}
+.top-content{
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    text-align: justify;
+    width: 88%;
+}
+.top-content p{
+    padding-left: 7px;
+    font-size: 12px;
+}
+.top-content span{
+  
+    height: 55px;
+    width: 5px;
+    background-color: rgb(14, 13, 41);
+
+}
+.qrcode-section{
+    display: flex;
+
+}
+.qrcode-section img{
+    height: 50px;
+
+}
+.signature-section{
+    margin-top: 5px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ 
+ 
+}
+.signature-section img {
+    height: 30px;
+    width: 200px;
+}
+.signature{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+.signature span{
+    margin-top: -6px;
+}
+.signature p{
+    margin-top: -10px;
+    font-size: 12px;
+}
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bottom-section p{
+    font-size: 12px;
+    text-align: center;
+}
+.bottom-text{
+     margin-top: -15px;
+     margin-left: 0px;
 }
